@@ -1,7 +1,8 @@
+define(function(){var require = WILTON_requiresync;var module = {exports: {}};var exports = module.exports;
 'use strict';
 
 var assert = require('assert'),
-    sprintfjs = require('../src/sprintf.js'),
+    sprintfjs = require('sprintf-js/src/sprintf.js'),
     sprintf = sprintfjs.sprintf,
     vsprintf = sprintfjs.vsprintf
 
@@ -56,3 +57,5 @@ describe("sprintfjs", function() {
         })
     })
 })
+
+return module.exports;});
