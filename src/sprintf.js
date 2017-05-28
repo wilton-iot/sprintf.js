@@ -205,6 +205,12 @@
         else if (typeof variable === 'string') {
             return 'string'
         }
+        else if (null === variable) {
+            return 'null'
+        }
+        else if (typeof variable === 'undefined') {
+            return 'undefined'
+        } 
         else {
             return Object.prototype.toString.call(variable).slice(8, -1).toLowerCase()
         }
