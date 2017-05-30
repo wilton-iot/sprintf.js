@@ -1,6 +1,10 @@
 define(function(){var require = WILTON_requiresync;var module = {exports: {}};var exports = module.exports;
 'use strict';
 
+var test = require('tape-compat');
+var describe = test.describe;
+var it = test.it;
+
 var assert = require('assert'),
     sprintfjs = require('sprintf-js/src/sprintf.js'),
     sprintf = sprintfjs.sprintf,
