@@ -36,7 +36,8 @@
       "dist",
       "test",
       "bower.json",
-      "gulpfile.js"
+      "gulpfile.js",
+      "test.js"
     ]
   }
 }
